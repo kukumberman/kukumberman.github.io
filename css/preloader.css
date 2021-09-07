@@ -1,0 +1,27 @@
+#preloader {
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+}
+
+#preloader.disabled {
+  pointer-events: none;
+}
+
+#preloader > div {
+  width: 50vw;
+  background-color: black;
+}
+
+#preloader.disabled > div {
+  transition: transform 0.5s ease-in-out;
+}
+
+#preloader.disabled > div.left {
+  transform: translateX(-100%);
+}
+
+#preloader.disabled > div.right {
+  transform: translateX(100%);
+}

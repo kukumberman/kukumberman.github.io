@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  user-select: none;
+  font-family: "Source Code Pro", "Consolas", monospace;
+}
+
+video {
+  z-index: -10;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  color: white;
+  font-size: 10vw;
+  text-align: center;
+  text-shadow: black 5px 5px 10px;
+}
+
+.fab, .fas {
+  color: white;
+  text-shadow: black 2px 2px 5px;
+}
+
+.media-container > a {
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.audio-container {
+  margin: 20px 0;
+}
+
+.audio-container > .fas:hover {
+  cursor: pointer;
+}
+
+.audio-container > i {
+  margin: 0 10px;
+}
+
+.overlay {
+  z-index: -5;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-repeat: repeat;
+}
