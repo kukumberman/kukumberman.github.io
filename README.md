@@ -1,6 +1,6 @@
 # kukumberman.github.io
 
-[kukumberman.github.io](https://www.kukumberman.github.io)
+[kukumberman.github.io](https://kukumberman.github.io)
 
 Credits:
 - [audio](https://www.youtube.com/watch?v=AVblOqZBlJw)
